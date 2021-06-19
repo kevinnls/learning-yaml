@@ -5,7 +5,7 @@ const config = {
   output: {
     file: "index.js",
     format: "iife",
-    name: "auto"
+    name: "functions"
   },
   plugins: [resolve(), commonjs()],
 };

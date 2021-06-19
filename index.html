@@ -20,13 +20,15 @@
 		<div id="left-pane">
 			<label for="input">Type in some YAML
 			</label>
-			<textarea oninput="auto.updateInputObject(event)"
+			<textarea oninput="functions.updateInputObject(event)"
+				  id="input"
 				  placeholder="Type in some YAML" name="input"></textarea>
 		</div>
 		<div id="right-pane">
 			<label for="queryinput">Query a value from the YAML
 			</label>
-			<input oninput="auto.updateQueryString(event)"
+			<input oninput="functions.updateQueryString(event)"
+			       id="query"
 			       placeholder="Query a value from the YAML"
 			       type="text" name="queryinput">
 
