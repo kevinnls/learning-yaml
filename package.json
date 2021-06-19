@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/kevinnls/learning-yaml/issues"
   },
-  "homepage": "https://github.com/kevinnls/learning-yaml#readme"
+  "homepage": "https://github.com/kevinnls/learning-yaml#readme",
+  "devDependencies": {
+    "rollup": "^2.52.1"
+  },
+  "dependencies": {
+    "yaml": "^1.10.2"
+  }
 }
