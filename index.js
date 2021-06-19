@@ -22,7 +22,7 @@ function updateQueryString(e){
 function updateOutputObject(){
 	if (!!queryString && !!inputObject){
 		try {
-			document.getElementById("output").value = inputObject[queryString]
+			document.getElementById("output").value = JSON.stringify(inputObject[queryString])
 		} catch (err) {
 			document.getElementById("output").value = "query Could Not Be REsolved"
 		}
