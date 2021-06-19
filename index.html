@@ -15,16 +15,20 @@
 		<div id="left-pane">
 			<label for="input">Type in some YAML
 			</label>
-			<textarea placeholder="Type in some YAML" name="input"></textarea>
+			<textarea oninput="updateInputObject(event)"
+				  placeholder="APP NOT READY! TYPE JSON FOR NOW! WITH STRING FORMATTING!"
+				  placeholder="Type in some YAML" name="input"></textarea>
 		</div>
 		<div id="right-pane">
 			<label for="queryinput">Query a value from the YAML
 			</label>
-			<input placeholder="Query a value from the YAML" type="text" name="queryinput">
+			<input oninput="updateQueryString(event)"
+			       placeholder="Query a value from the YAML"
+			       type="text" name="queryinput">
 
 			<label for="output">Resulting value of the query
 			</label>
-			<textarea placeholder="Result not generated" name="output" readonly></textarea>
+			<textarea placeholder="Result not generated" id="output" name="output" readonly></textarea>
 		</div>
 	</body>
 </html>
