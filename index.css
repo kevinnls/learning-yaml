@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	color: #fafafa;
+	display: grid;
+	grid-template-rows: 10vh auto;
+	grid-template-columns: auto auto;
+	grid-gap: 1em;
+	height:75vh;
+}
+header {
+	grid-row: 1/1;
+	grid-column: 1/ span 2;
+}
+label,textarea {
+	display: block;
+}
+#left-pane, #right-pane {
+	display: grid;
+	grid-gap: 1ch;
+}
+#left-pane {
+	grid-template-rows: 2ch auto;
+}
+#right-pane {
+	grid-template-rows: 2ch 5ch 2ch auto;
+}

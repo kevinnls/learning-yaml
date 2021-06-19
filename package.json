@@ -1,0 +1,19 @@
+{
+  "name": "learning-yaml",
+  "version": "0.1.0",
+  "description": "### YAML — YAML Ain't Markup Language a syntax/format/language for data serialization",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinnls/learning-yaml.git"
+  },
+  "author": "kevinnls",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kevinnls/learning-yaml/issues"
+  },
+  "homepage": "https://github.com/kevinnls/learning-yaml#readme"
+}
