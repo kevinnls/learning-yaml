@@ -26,6 +26,7 @@ function updateOutputObject(){
 		}
 	} else {
 			document.getElementById("output").value = ""
+	}
 }
 
 export { updateInputObject, updateQueryString }
