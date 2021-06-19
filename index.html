@@ -6,6 +6,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="viewport" content="height=device-height, initial-scale=1.0">
 		<link rel="stylesheet" href="./index.css">
+		<script>
+			var inputObject
+			var queryString
+			var outputObject
+		</script>
 		<script src="index.js"></script>
 	</head>
 	<body>
@@ -15,14 +20,14 @@
 		<div id="left-pane">
 			<label for="input">Type in some YAML
 			</label>
-			<textarea oninput="updateInputObject(event)"
+			<textarea oninput="auto.updateInputObject(event)"
 				  placeholder="APP NOT READY! TYPE JSON FOR NOW! WITH STRING FORMATTING!"
 				  placeholder="Type in some YAML" name="input"></textarea>
 		</div>
 		<div id="right-pane">
 			<label for="queryinput">Query a value from the YAML
 			</label>
-			<input oninput="updateQueryString(event)"
+			<input oninput="auto.updateQueryString(event)"
 			       placeholder="Query a value from the YAML"
 			       type="text" name="queryinput">
 

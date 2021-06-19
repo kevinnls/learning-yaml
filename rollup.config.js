@@ -1,12 +1,11 @@
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from "@rollup/plugin-commonjs";
 const config = {
-  input: "yamlParse.js",
+  input: "main.js",
   output: {
-    file: "yaml.js",
+    file: "index.js",
     format: "iife",
-    sourcemap: true,
-    exports: "auto"
+    name: "auto"
   },
   plugins: [resolve(), commonjs()],
 };
