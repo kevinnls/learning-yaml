@@ -24,7 +24,8 @@ function updateOutputObject(){
 		} catch (err) {
 			document.getElementById("output").value = "query Could Not Be REsolved"
 		}
-	}
+	} else {
+			document.getElementById("output").value = ""
 }
 
 export { updateInputObject, updateQueryString }
